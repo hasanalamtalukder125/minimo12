@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* font-family: "Playfair Display", serif;
+    font-family: "Ubuntu", sans-serif; */
+display: flex;
+
+/* background: magenta; */
+
+justify-content: space-between;
+
+width: 90%;
+
+margin-left: 5%;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+}
+.logo{
+
+/* background: red; */
+
+width: 20%;
+}
+nav{
+
+width: 50%;
+
+/* background: blue; */
+}
+header nav ul{
+
+display: flex;
+
+list-style: none;
+
+justify-content: end;
+}
+header nav ul li{
+
+margin-left: 50px;
+}
+header nav ul li a{
+
+text-decoration: none;
+font-family: "Playfair Display", serif;
+color: #626262;
+}
+.baner_section{
+
+width: 90%;
+
+margin-left: 5%;
+}
+.baner_section img{
+    
+width: 100%;
+}
+
+.photodairy{
+
+width: 80%;
+
+margin: auto;
+
+margin-top: 70px;
+
+margin-bottom: 70px;
+}
+
+.photodairy h1{
+    
+color: #626262;
+    
+font-weight: 400;
+    
+font-size: 30px;
+    
+margin-bottom: 15px;
+font-family: "Playfair Display", serif;
+}
+
+.photodairy h5{
+    
+color: #b4ad9e;
+    
+text-transform: uppercase;
+    
+font-weight: 400;
+    
+font-size: 14px;
+    
+margin-bottom: 15px;
+font-family: "Ubuntu", sans-serif;
+}
+
+.photodairy p{
+    
+color: #626262;
+    
+font-size: 16px;
+    
+margin-bottom: 15px;
+    
+line-height: 22px;
+    
+font-family: "Playfair Display", serif;
+}
+
+.photodairy h6{
+    
+color: #b4ad9e;
+    
+text-transform: uppercase;
+    
+font-weight: 400;
+    
+font-size: 14px;
+    
+margin-bottom: 15px;
+font-family: "Ubuntu", sans-serif;
+}
+.feature_section{
+    
+width: 80%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+flex-wrap: wrap;
+}
+.feature_iteam{
+
+width: 48%;
+
+margin-bottom: 70px;
+}
+.feature_iteam img{
+
+width: 100%;
+
+margin-bottom: 15px;
+}
+.feature_iteam h5{
+
+color: #b4ad9e;
+
+text-transform: uppercase;
+
+font-weight: 400;
+
+font-size: 14px;
+
+margin-bottom: 15px;
+
+font-family: "Ubuntu", sans-serif;
+}
+.feature_iteam h1{
+
+color: #626262;
+
+font-weight: 400;
+
+font-size: 30px;
+
+margin-bottom: 15px;
+
+font-family: "Playfair Display", serif;
+}
+.feature_iteam p{
+
+color: #626262;
+
+font-size: 16px;
+
+margin-bottom: 15px;
+
+line-height: 22px;
+
+font-family: "Playfair Display", serif;
+}
+
+.newslater{
+
+background: #f0f0f0;
+
+padding: 70px 0;
+}
+.content{
+
+width: 22%;
+
+margin: auto;
+}
+.content h2{
+    
+margin-bottom: 49px;
+    
+color: #626262;
+    
+text-transform: capitalize;
+    
+font-weight: 400;
+    
+margin-bottom: 50px;
+    
+margin-bottom: 50px;
+    
+font-family: "Playfair Display", serif;
+}
+.content input{
+    
+border: none;
+    
+border-bottom: 1px solid #000;
+    
+width: 100%;
+    
+background: transparent;
+}
+.content input:focus{
+    outline: none;
+}
+.content input::placeholder{
+    font-family: "Playfair Display", serif;
+    color: #626262;
+}
+
+.loeadmore{
+
+text-align: center;
+
+margin: 50px 0;
+}
+.loeadmore button{
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #000;
+
+font-size: 16px;
+
+padding: 20px 30px;
+
+text-transform: capitalize;
+}
+
+footer{
+margin-top: 150px;
+
+background: #f0f0f0;
+
+padding: 30px 0;
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+}
+.terms ul li{
+    
+margin-right: 15px;
+}
+.terms ul li a{
+    
+text-decoration: none;
+    
+text-transform: capitalize;
+    
+font-size: 14px;
+    
+color: #626262;
+}
+.social_icon{
+
+}
+.social_icon ul{
+    
+list-style: none;
+    
+display: flex;
+}
+.social_icon ul li{
+    text-transform: capitalize;
+    
+margin: 15px;
+}
+.social_icon ul li a{
+    color: #626262;
+    text-decoration: none;
+}
